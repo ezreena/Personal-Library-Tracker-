@@ -1,0 +1,18 @@
+services:
+  backend:
+    build: ./backend
+    container_name: json-server
+    ports:
+      - '5001:5000'
+    volumes:
+      - ./backend:/app
+
+  frontend:
+    build: .
+    container_name: library-frontend
+    ports:
+      - '8080:80'
+    volumes:
+      - ./public/img:/app/public/img
+    depends_on:
+      - backend

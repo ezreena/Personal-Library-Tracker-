@@ -1,53 +1,55 @@
-# Personal Library Tracker
-Library Tracker is a web-based book management system built using **Vue 3**, **Vuetify**, **TypeScript**, and **JSON Server**. It allows users to add, browse, search, and manage their personal library.
+# library-tracker
 
-<img src="public/img/screenshot.png" />
+This template should help get you started developing with Vue 3 in Vite.
 
-## 🚀 Features
+## Recommended IDE Setup
 
-- Add new books with cover, description, status, review and genre
-- Browse all books with title, author, and description
-- Search books by title or reading status
-- View book details and manage entries (edit/delete)
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## 🛠️ Tech Stack
+## Type Support for `.vue` Imports in TS
 
-- **Vue 3** (Composition API)
-- **TypeScript**
-- **Vuetify 3** (UI Framework)
-- **Vite** (Dev server & bundler)
-- **JSON Server** (Mock backend API)
-- **Vue Router** (Routing)
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
 
-## Run with Docker
+## Customize configuration
 
-First launch docker and run this command 
-```bash
-docker-compose up --build
-```
-This will:
+See [Vite Configuration Reference](https://vite.dev/config/).
 
-Serve the frontend on http://localhost:8080/
+## Project Setup
 
-Serve JSON Server API on http://localhost:8080/api/books
-
-### To stop the service: 
-```bash
-docker-compose down
+```sh
+npm install
 ```
 
-## 📚 Add Book Tutorial 
-### 1. Navigate to Add Book Page
-### 2. Fill in the Add book Form 
-   <img src="public/img/AddBook.png" />
-   
-###  3. Upload Book Cover as below
-   <img src="public/img/Bookstores.jpg" />
-   
-  ⚠️ Note: Since this project is frontend-only and doesn't use a database, uploaded images cannot be stored permanently. To ensure the image is displayed correctly, you need to upload the image into the public/img directory manually.
-  
-   <img src="public/img/directory.JPG" />
-   
-### 5. Click 'Add Book' 
-  
-  After filling out the form and ensuring the image exists in the correct path, click 'Add Book' to add the book.
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Run Unit Tests with [Vitest](https://vitest.dev/)
+
+```sh
+npm run test:unit
+```
+
+### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
+
+```sh
+npm run test:e2e:dev
+```
+
+This runs the end-to-end tests against the Vite development server.
+It is much faster than the production build.
+
+But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
+
+```sh
+npm run build
+npm run test:e2e
+```

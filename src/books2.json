@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "img": "QUniverse.jpeg",
+    "title": "Queen of the Universe",
+    "author": "Pia Wurtzbach",
+    "description": "What happens when climbing the ladder of success means compromising everything you believe in…including yourself? This debut novel by an actress and pageant title holder gives a window into the hidden rungs of that ladder, and on the pain that comes with slipping and falling. Cleo is young, beautiful, talented and--until lately--lucky in love. But in the cut-throat world of international beauty competitions, she has to make the biggest decision of her life. ",
+    "genre": "Romance",
+    "status": "Completed",
+    "review": "This book is seriously a blast! If you're into a super relatable character suddenly becoming ruler of everything, with loads of wild cosmic adventures, twists, and maybe some laughs, you've gotta read this. It's a quick, fun ride that totally immerses you in its universe!"
+  },
+  {
+    "id": 2,
+    "img": "ItEndsWithUs.jpg",
+    "title": "It Ends With Us",
+    "author": "Colleen Hoover",
+    "description": "The story follows florist Lily Bloom navigates a tumultuous romantic relationship with neurosurgeon Ryle Kincaid while grappling with the shadow of her abusive childhood and the return of her high school sweetheart, Atlas Corrigan.The story explores themes of domestic violence, emotional abuse, and the struggle to break generational patterns of trauma. ",
+    "genre": "Romance",
+    "status": "Ongoing",
+    "review": "It Ends With Us is one of those books that just sticks with you. It kicks off like a super sweet romance between Lily Bloom and Ryle Kincaid, totally drawing you in. But then, whoa, it dives deep into the messy, tough stuff of domestic abuse, and it really makes you get why it's so incredibly hard when love and pain get all tangled up. Plus, Lily's old journal entries from when she was a kid give you all these emotional insights into how her past messed with her present, and Hoover's writing, told right from Lily's perspective, pulls you right into Lily's journey of heartbreak and resilience."
+  },
+  {
+    "id": 3,
+    "img": "GoneGirl.jpg",
+    "title": "Gone Girl",
+    "author": "Gillian Flynn",
+    "description": "Gone Girl by Gillian Flynn is a psychological thriller that follows the disappearance of Amy Dunne on her and her husband Nick's fifth wedding anniversary. The novel explores themes of marriage, media, and the unreliable nature of memory and perception. Nick becomes the prime suspect as Amy goes missing, and the story unfolds through alternating perspectives, revealing secrets and layers of deception.",
+    "genre": "Thriller",
+    "status": "Ongoing",
+    "review": "This book is insane  in the best possible way! If you love thrillers that mess with your head and make you question EVERYTHING, this is it. Amy disappears, Nick looks guilty, and the whole book is just a wild, twisted ride trying to figure out what the heck actually happened. It's totally gripping, super dark, and will leave you thinking about it long after you're done. Seriously, prepare to be mind-blown!"
+  },
+  {
+    "id": 4,
+    "title": "The Cabin at the End of the World",
+    "img": "TheCabin.jpeg",
+    "author": "Paul G. Tremblay",
+    "description": "A suspenseful novel about a family vacationing at a remote cabin in New Hampshire who are confronted by strangers who claim to need their help to save the world. ",
+    "genre": "Horror",
+    "status": "Want to read",
+    "review": "This book is stressful in the best possible way, if you're into that! Imagine a family vacation in a remote cabin, then strangers show up with a terrifying, impossible choice to prevent the apocalypse. It's a super intense, claustrophobic thriller that'll keep you on the edge of your seat the whole time, making you wonder what you'd do. Definitely a wild, unsettling ride!"
+  },
+  {
+    "id": 5,
+    "img": "TheGameOfThrones.jpeg",
+    "title": "The Game of Thrones",
+    "author": "George R. R. Martin",
+    "description": "A sweeping epic fantasy novel that follows the intricate political machinations of numerous noble houses vying for control of the Seven Kingdoms in the fictional world of Westeros. ",
+    "genre": "Fantasy",
+    "status": "Completed",
+    "review": "This book is where all the epic fantasy craziness begins! If you like huge worlds, tons of characters, intense political fights, and shocking twists (seriously, prepare yourself!), then jump into this one. It's the start of an amazing, super addictive journey with dragons, ice zombies, and loads of drama."
+  },
+  {
+    "id": 6,
+    "img": "TheHungerGames.jpg",
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "description": "A dystopian young adult series centered on a televised battle royale where teenagers from different districts are forced to fight to the death",
+    "genre": "Science Fiction",
+    "status": "Want to read",
+    "review": "Hunger games is one of my favourite! its a total ride.It's fast-paced, full of action, and makes you think about bigger stuff too. You'll be hooked from page one, wondering if she'll make it out alive! "
+  }
+]
